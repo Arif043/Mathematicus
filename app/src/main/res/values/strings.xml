@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Mathematicus</string>
+    <string name="program_label">Programme</string>
+    <string name="dynamic_func_label">Dynamische Funktionen</string>
+    <string name="einheitenrechner_prompt">Einheit wählen</string>
+    <string name="dynamic_func_add">Funktion hinzufügen</string>
+    <string name="dynamic_func_rm">Entfernen</string>
+    <string name="append">Hinzufügen</string>
+    <string name="cancel">Abbrechen</string>
+
+    <string name="number_system">Zahlensystem</string>
+
+    <string-array name="einheitenrechner_leangeneinheiten">
+        <item>Millimeter</item>
+        <item>Zentimeter</item>
+        <item>Dezimeter</item>
+        <item>Meter</item>
+        <item>Kilometer</item>
+        <item>Zoll</item>
+        <item>Fuß</item>
+        <item>Yard</item>
+        <item>Meile</item>
+    </string-array>
+
+    <string-array name="einheitenrechner_leangeneinheitszeichen">
+        <item>mm</item>
+        <item>cm</item>
+        <item>dm</item>
+        <item>m</item>
+        <item>km</item>
+        <item>in</item>
+        <item>ft</item>
+        <item>yd</item>
+        <item>mi</item>
+    </string-array>
+
+    <string-array name="einheitenrechner_volumeneinheiten">
+        <item>Kubikmillimeter</item>
+        <item>Kubikzentimeter</item>
+        <item>Kubikdezimeter</item>
+        <item>Kubikmeter</item>
+        <item>Kubikkilometer</item>
+    </string-array>
+
+    <string-array name="einheitenrechner_volumeneinheitszeichen">
+        <item>mm³</item>
+        <item>cm³</item>
+        <item>dm³</item>
+        <item>m³</item>
+        <item>km³</item>
+    </string-array>
+
+    <string-array name="einheitenrechner_datenenheiten">
+        <item>Bit</item>
+        <item>Nibble</item>
+        <item>Byte</item>
+        <item>Kilobit</item>
+        <item>Kilobyte</item>
+        <item>Kibibit</item>
+        <item>Kibibyte</item>
+        <item>Megabit</item>
+        <item>Megabyte</item>
+        <item>Mebibit</item>
+        <item>Mebibyte</item>
+        <item>Gigabit</item>
+        <item>Gigabyte</item>
+        <item>Gibibit</item>
+        <item>Gibibyte</item>
+        <item>Terabit</item>
+        <item>Terabyte</item>
+        <item>Tebibit</item>
+        <item>Tebibyte</item>
+        <item>Petabit</item>
+        <item>Petabyte</item>
+        <item>Pebibit</item>
+        <item>Pebibyte</item>
+        <item>Exabit</item>
+        <item>Exabyte</item>
+        <item>Exbibit</item>
+        <item>Exbibyte</item>
+        <item>Zettabit</item>
+        <item>Zettabyte</item>
+        <item>Zebibit</item>
+        <item>Zebibyte</item>
+        <item>Yottabit</item>
+        <item>Yottabyte</item>
+        <item>Yobibit</item>
+        <item>Yobibyte</item>
+    </string-array>
+
+    <string-array name="einheitenrechner_dateneinheitszeichen">
+        <item>b</item>
+        <item>nibble</item>
+        <item>B</item>
+        <item>kb</item>
+        <item>kB</item>
+        <item>Kib</item>
+        <item>KiB</item>
+        <item>Mb</item>
+        <item>MB</item>
+        <item>Mib</item>
+        <item>MiB</item>
+        <item>Gb</item>
+        <item>GB</item>
+        <item>Gib</item>
+        <item>GiB</item>
+        <item>Tb</item>
+        <item>TB</item>
+        <item>Tib</item>
+        <item>TiB</item>
+        <item>Pb</item>
+        <item>PB</item>
+        <item>Pib</item>
+        <item>PiB</item>
+        <item>Eb</item>
+        <item>EB</item>
+        <item>Eib</item>
+        <item>EiB</item>
+        <item>Yb</item>
+        <item>YB</item>
+        <item>Yib</item>
+        <item>YiB</item>
+    </string-array>
+</resources>

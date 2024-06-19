@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:name=".ApplicationManager"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mathematicus"
+        tools:targetApi="31"
+        android:windowSoftInputMode="stateHidden">
+        <activity
+            android:name=".Menu"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".numsys.NumberSystemActivity"
+            android:label="@string/number_system"/>
+
+        <activity
+            android:name=".df.DynamicalFunctionsActivity"
+            android:label="@string/dynamic_func_label"/>
+        <activity
+            android:name=".programming.ProgrammeActivity"
+            android:label="@string/program_label" />
+        <activity
+            android:name=".table.TableSet"
+            android:label="Table"
+            android:theme="@style/Table" />
+        <activity
+            android:name=".table.Table"
+            android:label="Table"
+            android:theme="@style/Table" />
+        <activity
+            android:name=".Settings"
+            android:label="Settings"
+            android:theme="@style/Settings" />
+        <activity
+            android:name=".RunMatrix"
+            android:screenOrientation="portrait" />
+        <activity android:name=".graph.GraphViewer" />
+        <activity
+            android:name=".graph.GraphSet"
+            android:label="Graphen" />
+        <activity
+            android:name=".teiler.TeilerActivity"
+            android:theme="@style/Teiler" />
+        <activity
+            android:name=".einheitenrechner.Einheitenrechner"
+            android:parentActivityName=".Menu"
+            android:theme="@style/Einheitenrechner" />
+    </application>
+
+</manifest>

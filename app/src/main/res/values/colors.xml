@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#DAA400</color>
+    <color name="colorAccent">#00BCD4</color>
+    <color name="alpha">#E90B56</color>
+    <color name="shift">#D69504</color>
+    <color name="background">#FAFAFA</color>
+
+    <!-- 009898 -->
+
+    <color name="tablePrimary">#FF0000</color>
+    <color name="tablePrimaryDark">#DB0000</color>
+    <color name="tableAccent">#FF0909</color>
+
+    <color name="settingsPrimary">#FF860D</color>
+    <color name="settingsPrimaryDark">#DD760F</color>
+    <color name="settingsAccent">#FF860D</color>
+
+    <color name="teilerPrimary">#008577</color>
+    <color name="teilerPrimaryDark">#00574B</color>
+    <color name="teilerAccent">#D81B60</color>
+
+    <color name="einheitenrechnerPrimary">#05AA11</color>
+    <color name="einheitenrechnerPrimaryDark">#059B10</color>
+    <color name="einheitenrechnerAccent">#05AA11</color>
+
+    <array name="functions_color">
+        <item>@android:color/holo_red_light</item>
+        <item>@android:color/holo_blue_light</item>
+        <item>#00E600</item>
+        <item>#FC6A09</item>
+        <item>#00E6E6</item>
+        <item>#E91E63</item>
+        <item>#727272</item>
+    </array>
+</resources>

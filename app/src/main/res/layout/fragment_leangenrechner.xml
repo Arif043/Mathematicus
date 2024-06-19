@@ -1,0 +1,90 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ertugrul.arif.mathematicus.einheitenrechner.Leangenrechner">
+
+    <Spinner
+        android:id="@+id/lSpinnerIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:prompt="@string/einheitenrechner_prompt"
+        android:entries="@array/einheitenrechner_leangeneinheiten"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_conversion_wrapHeight="63"
+        tools:layout_conversion_wrapWidth="1080" />
+
+    <EditText
+        android:id="@+id/lInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lSpinnerIn" />
+
+    <TextView
+        android:id="@+id/lInputUnit"
+        android:layout_width="67dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toEndOf="@+id/lInput"
+        app:layout_constraintTop_toBottomOf="@+id/lSpinnerIn" />
+
+    <TextView
+        android:id="@+id/lOutputUnit"
+        android:layout_width="67dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toEndOf="@+id/lOutput"
+        app:layout_constraintTop_toBottomOf="@+id/lSpinnerOut" />
+
+    <Spinner
+        android:id="@+id/lSpinnerOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/einheitenrechner_prompt"
+        android:entries="@array/einheitenrechner_leangeneinheiten"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lInput" />
+
+    <EditText
+        android:id="@+id/lOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="@android:color/black"
+        android:enabled="false"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lSpinnerOut" />
+</androidx.constraintlayout.widget.ConstraintLayout>
